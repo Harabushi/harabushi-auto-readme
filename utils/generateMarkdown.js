@@ -16,7 +16,7 @@ function generateMarkdown(data) {
 
   ## Description
   
-  ${renderLicenseBadge(data.license)}
+  ${data.license} badge
   ${data.description}
 
   ## Table of Contents
@@ -37,8 +37,8 @@ function generateMarkdown(data) {
   ## License
 
   ${data.license}
-  ${renderLicenseLink(data.license)}
-  ${renderLicenseSection(data.license)}
+  ${data.license} link
+  ${data.license} section, which might be where I actually generate the whole thing
 
   ## Contributing
 
