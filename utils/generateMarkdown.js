@@ -16,7 +16,7 @@ function generateMarkdown(data) {
 
   ## Description
   
-  ${data.license} badge
+  ${data.license} badge\
   ${data.description}
 
   ## Table of Contents
@@ -36,8 +36,8 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
-  ${data.license} link
+  ${data.license}\
+  ${data.license} link\
   ${data.license} section, which might be where I actually generate the whole thing
 
   ## Contributing
@@ -50,10 +50,10 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about this project please reach out either through GitHub or my email.
-  Please include the name of the project in the subject line and any other relevant information in the content.
+  If you have any questions about this project please reach out either through GitHub or my email.\
+  Please include the name of the project in the subject line and any other relevant information in the content.\
 
-  [${data.github}](https://github.com/${data.github})
+  [${data.github}](https://github.com/${data.github})\
   [${data.email}](mailto:${data.email})
   
   ### Credits

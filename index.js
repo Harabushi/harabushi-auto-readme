@@ -156,6 +156,26 @@ function init() {
   return inquirer.prompt(questions)
 };
 
+const mockData = {
+  title: 'REAMDE.md Generator',
+  github: 'Harabushi',
+  description:
+    'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.',
+  installation:
+    'just download, initialize it in npm, and run it',
+  usage:
+    'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.',
+  credits:
+    'harabushi and a few other people',
+  contribution:
+    'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.',
+  test:
+    'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.',
+  license: 'MIT',
+  github: 'Harabushi',
+  email: 'harabushi@gmail.com'
+};
+
 // Function call to initialize app
 init()
   .then(readmeData => {
