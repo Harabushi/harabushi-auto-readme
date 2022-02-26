@@ -101,7 +101,7 @@ const questions = [
     type: 'rawlist',
     name: 'license',
     message: 'What license is your project under?',
-    choices: ['MIT', 'Apache', 'GNU', 'BSD', 'Boost Software', 'Creative Commons Zero', 'Eclipse Public', 'Mozilla', 'The Unlicense'],
+    choices: ['MIT', 'Apache', 'GNU', 'BSD', 'Boost_Software', 'Creative_Commons', 'Eclipse_Public', 'Mozilla', 'The_Unlicense', 'None'],
   },
   {
     // question: github username (text input)
@@ -153,7 +153,15 @@ function writeToFile(data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  return inquirer.prompt(questions)
+  console.log(`
+  ===================
+  README.md Generator
+  ===================
+  `);
+  return new Promise((resolve, reject) => {
+    resolve(mockData);
+  });
+  // return inquirer.prompt(questions);   
 };
 
 const mockData = {
@@ -178,11 +186,16 @@ const mockData = {
 
 // Function call to initialize app
 init()
-  .then(readmeData => {
-    return generateMarkdown(readmeData);
-  })
-  .then(markdown => {
-    return writeToFile(markdown);
-  })
+  .then(readmeData => generateMarkdown(readmeData))
+  .then(markdown => writeToFile(markdown))
   .then(writeToFileResponse => console.log(writeToFileResponse))
   .catch(err => console.log(err));
+
+
+// can't get this to work either
+// generateMarkdown(mockData)
+//   .then(markdown => {
+//     return writeToFile(markdown);
+//   })
+//   .then(writeToFileResponse => console.log(writeToFileResponse))
+//   .catch(err => console.log(err));

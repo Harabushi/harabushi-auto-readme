@@ -1,9 +1,10 @@
-# README Generator
+
+  # REAMDE.md Generator
 
   ## Description
   
-  MIT badge
-  This APP generates a README automatically based on user input
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
+  Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.
 
   ## Table of Contents
 
@@ -18,30 +19,30 @@
 
   ## Usage
 
-  its main usage is to assist in speeding up the creation of quality readmes
+  Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.
 
   ## License
 
-  MIT
-  MIT link
-  MIT section, which might be where I actually generate the whole thing
+  
+  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  <br>
 
   ## Contributing
 
-  common contribution guidelines apply
+  Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.
 
   ## Tests
 
-  it is thoroughly tested by me
+  Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.
 
   ## Questions
 
-  If you have any questions about this project please reach out either through GitHub or my email.
-  Please include the name of the project in the subject line and any other relevant information in the content.
+  If you have any questions about this project please reach out either through GitHub or my email.<br>
+  Please include the name of the project in the subject line and any other relevant information in the content.<br>
 
-  [Harabushi](https://github.com/Harabushi)
+  [github.com/Harabushi](https://github.com/Harabushi)<br>
   [harabushi@gmail.com](mailto:harabushi@gmail.com)
   
   ### Credits
 
-  me and only me
+  harabushi and a few other people
