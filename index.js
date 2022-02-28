@@ -37,36 +37,31 @@ const questions = [
     // question: installation (text input)
     type: 'input',
     name: 'installation',
-    message: 'Please enter installation instructions for your project:',
-    default: 'The creator has decided not to include installation instructions'
+    message: 'Please enter installation instructions for your project:'
   },
   {
     // question: usage (text input)
     type: 'input',
     name: 'usage',
-    message: 'Please enter usage information for your project:',
-    default: 'The creator has decided not to include usage instructions'
+    message: 'Please enter usage information for your project:'
   },
   {
     // question: credits (text input)
     type: 'input',
     name: 'credits',
-    message: 'Please enter any credits for your project:',
-    default: 'The creator has decided not to include credits'
+    message: 'Please enter any credits for your project:'
   },
   {
     // question: contributing (text input)
     type: 'input',
     name: 'contribution',
-    message: 'Please enter contribution guidelines for your project:',
-    default: 'The creator has decided not to include contribution guidelines'
+    message: 'Please enter contribution guidelines for your project:'
   },
   {
     // question: tests (text input)
     type: 'input',
     name: 'test',
-    message: 'Please enter test information for your project:',
-    default: 'The creator has decided not to include test information'
+    message: 'Please enter test information for your project:'
   },
   {
     // question: license (rawlist)
@@ -74,7 +69,7 @@ const questions = [
     type: 'rawlist',
     name: 'license',
     message: 'What license is your project under?',
-    choices: ['MIT', 'Apache', 'GNU', 'BSD', 'Boost_Software', 'Creative_Commons', 'Eclipse_Public', 'Mozilla', 'The_Unlicense', 'None'],
+    choices: ['MIT', 'Apache', 'GNU', 'BSD', 'Boost_Software', 'Creative_Commons', 'Eclipse_Public', 'Mozilla', 'The_Unlicense', 'none'],
   },
   {
     // question: github username (text input)
