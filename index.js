@@ -9,7 +9,7 @@ const questions = [
     // question: project title (text input)
     type: 'input',
     name: 'title',
-    message: 'What is the title of your project?',
+    message: 'What is the title of your project?(required)',
     validate: title => {
       if (title) {
         return true;
@@ -23,7 +23,7 @@ const questions = [
     // question: description (text input)
     type: 'input',
     name: 'description',
-    message: 'Please enter a description for your project:',
+    message: 'Please enter a description for your project:(required)',
     validate: description => {
       if (description) {
         return true;
@@ -38,62 +38,35 @@ const questions = [
     type: 'input',
     name: 'installation',
     message: 'Please enter installation instructions for your project:',
-    validate: installation => {
-      if (installation) {
-        return true;
-      } else {
-        console.log('Please enter installation instructions for your project!');
-        return false;
-      };
-    }
+    default: 'The creator has decided not to include installation instructions'
   },
   {
     // question: usage (text input)
     type: 'input',
     name: 'usage',
     message: 'Please enter usage information for your project:',
-    validate: usage => {
-      if (usage) {
-        return true;
-      } else {
-        console.log('Please enter usage information for your project!');
-        return false;
-      };
-    }
+    default: 'The creator has decided not to include usage instructions'
   },
   {
     // question: credits (text input)
     type: 'input',
     name: 'credits',
     message: 'Please enter any credits for your project:',
+    default: 'The creator has decided not to include credits'
   },
   {
     // question: contributing (text input)
     type: 'input',
     name: 'contribution',
     message: 'Please enter contribution guidelines for your project:',
-    validate: contribution => {
-      if (contribution) {
-        return true;
-      } else {
-        console.log('Please enter contribution guidelines for your project!');
-        return false;
-      };
-    }
+    default: 'The creator has decided not to include contribution guidelines'
   },
   {
     // question: tests (text input)
     type: 'input',
     name: 'test',
     message: 'Please enter test information for your project:',
-    validate: test => {
-      if (test) {
-        return true;
-      } else {
-        console.log('Please enter test information for your project!');
-        return false;
-      };
-    }
+    default: 'The creator has decided not to include test information'
   },
   {
     // question: license (rawlist)
@@ -107,7 +80,7 @@ const questions = [
     // question: github username (text input)
     type: 'input',
     name: 'github',
-    message: 'What is your GitHub Username for the project?',
+    message: 'What is your GitHub Username for the project?(required)',
     validate: github => {
       if (github) {
         return true;
@@ -122,15 +95,7 @@ const questions = [
     type: 'input',
     name: 'email',
     message: 'What is a good Email to reach you about the project?',
-    validate: email => {
-      if (email) {
-        return true;
-      } else {
-        console.log('Please enter your Email!');
-        return false;
-      };
-    }
-  },
+  }
 ];
 
 // TODO: Create a function to write README file
