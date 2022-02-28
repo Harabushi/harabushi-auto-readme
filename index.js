@@ -158,12 +158,14 @@ function init() {
   README.md Generator
   ===================
   `);
-  return new Promise((resolve, reject) => {
-    resolve(mockData);
-  });
-  // return inquirer.prompt(questions);   
+  // commented code is for testing with mockData
+  // return new Promise((resolve, reject) => {
+  //   resolve(mockData);
+  // });
+  return inquirer.prompt(questions);
 };
 
+// mockData for testing output
 const mockData = {
   title: 'REAMDE.md Generator',
   github: 'Harabushi',
@@ -190,12 +192,3 @@ init()
   .then(markdown => writeToFile(markdown))
   .then(writeToFileResponse => console.log(writeToFileResponse))
   .catch(err => console.log(err));
-
-
-// can't get this to work either
-// generateMarkdown(mockData)
-//   .then(markdown => {
-//     return writeToFile(markdown);
-//   })
-//   .then(writeToFileResponse => console.log(writeToFileResponse))
-//   .catch(err => console.log(err));

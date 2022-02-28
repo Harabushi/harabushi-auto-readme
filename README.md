@@ -1,80 +1,57 @@
-# layout for a good README
 
-## What was your motivation?
+  # Auto-README
 
-## Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+  ## Description
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
+  This app will take user input about a project and automatically fill in a professional quality README.md, including a Table of Contents, badge display for License, and standard starting categories for information.
 
-## What problem does it solve?
+  ## Table of Contents
 
-## What did you learn?
+  - [Screenshots and Walkthrough](#walkthrough)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
 
-## What makes your project stand out?
+  ## Screenshots and Walkthrough
 
-<!-- recommended README structure -->
-# <Your-Project-Title>
+  [Walk-Through Video](https://drive.google.com/file/d/1aARFr57dHNdkQDLXjCh6-PHBMsweGeJR/view?usp=sharing)
+  
+  <img src="./assets/generator-inaction-screenshot.png" width=50% height=50%>
 
-## Description
+  <img src="./assets/readme-generator-screenshot.png" width=50% height=50%>
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+  ## Installation
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+  To install this project: Simply download it from GitHub and run npm init from the terminal on the installation folder.
 
-## Table of Contents (Optional)
+  ## Usage
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+  To use this app, run "node index" in your preferred terminal, then follow along and answer the questions to your desired completeness. At the end a README.d will be populated in the "dist" folder ready for use.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+  ## License
 
-## Installation
+  
+  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  <br>
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+  ## Contributing
 
-## Usage
+  No current contribution guidelines in place.
 
-Provide instructions and examples for use. Include screenshots as needed.
+  ## Tests
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+  No current test information available.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+  ## Questions
 
-## Credits
+  If you have any questions about this project please reach out either through GitHub or my email.<br>
+  Please include the name of the project in the subject line and any other relevant information in the content.<br>
 
-List your collaborators, if any, with links to their GitHub profiles.
+  [github.com/Harabushi](https://github.com/Harabushi)<br>
+  [harabushi.creations@gmail.com](mailto:harabushi.creations@gmail.com)
+  
+  ### Credits
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+  This is a solo project, but I have been helped by the guidelines from the class, the Instructor and TA's, and fellow classmates.
