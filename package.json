@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- recommended README structure -->\r # <Your-Project-Title>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harabushi/harabushi-auto-readme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Harabushi/harabushi-auto-readme/issues"
+  },
+  "homepage": "https://github.com/Harabushi/harabushi-auto-readme#readme"
 }
